@@ -1,6 +1,16 @@
 Cyber Security
 Cyber Security - SOC , SEIM, XDR
+Security Operations Center (SOC)
+Security Information and Event Management (SIEM)
+Extended Detection and Response (XDR)
 
+Comparison: SOC vs. SIEM vs. XDR
+Feature	SOC	SIEM	XDR
+Purpose	Centralized monitoring and response	Log aggregation and analysis	Unified threat detection and response
+Focus Area	Incident response and management	Log analysis, threat detection	Multi-layer security (endpoints, cloud, etc.)
+Tools Used	SIEM, EDR, SOAR	SIEM tools (Splunk, QRadar, etc.)	XDR platforms (CrowdStrike, Cortex, etc.)
+Benefits	24/7 monitoring, proactive defense	Compliance, centralized logging	Holistic threat detection, automated response
+Challenges	High operational cost, skilled staff	Complex setup, false positives	Integration complexity, vendor lock-in
 
 nslookup example.com
 dig example.com
