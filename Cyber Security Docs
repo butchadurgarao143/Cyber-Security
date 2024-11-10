@@ -33,3 +33,87 @@ set LPORT <port>
 exploit
 ' OR '1'='1
 ' OR 1=1 --
+
+
+------------
+
+
+Common Usernames
+These are frequently used default or easy-to-guess usernames:
+
+admin
+administrator
+root
+user
+guest
+test
+support
+info
+manager
+sysadmin
+superuser
+webmaster
+developer
+dbadmin
+oracle
+Common Passwords
+These are among the most frequently used (and therefore weakest) passwords:
+
+password
+123456
+123456789
+admin
+qwerty
+abc123
+letmein
+welcome
+password1
+12345
+iloveyou
+admin123
+test123
+qwertyuiop
+P@ssw0rd
+passw0rd
+1234
+default
+guest
+changeme
+
+---------
+
+Tools Overview
+Tool	Purpose
+Burp Suite	Web application security testing
+Hydra	Brute-force login credentials
+SQLMap	Automated SQL injection
+Gobuster	Directory/file brute-forcing
+Metasploit	Exploitation framework
+OWASP ZAP	Web vulnerability scanner
+Nikto	Web server scanner
+Wfuzz	Fuzzing web applications
+
+
+
+
+Default Credentials for Popular Web Applications
+Below are some commonly used default credentials for specific applications and services:
+
+Service	Username	Password
+WordPress	admin	admin, password
+phpMyAdmin	root	root, admin
+MySQL	root	root, admin
+Tomcat Manager	admin	admin, tomcat
+Jenkins	admin	admin, admin123
+cPanel	root	root, 1234
+Cisco Router	admin	cisco, admin
+MongoDB	admin	admin, 123456
+Password Lists for Brute-Forcing Tools
+Penetration testers often use publicly available password lists with tools like Hydra, John the Ripper, or Burp Suite for brute-forcing attempts.
+
+Some popular password lists include:
+
+rockyou.txt - Available in Kali Linux (/usr/share/wordlists/rockyou.txt)
+SecLists - A comprehensive collection of wordlists (https://github.com/danielmiessler/SecLists)
+10-million-password-list - Available on GitHub for extensive testing.
+
